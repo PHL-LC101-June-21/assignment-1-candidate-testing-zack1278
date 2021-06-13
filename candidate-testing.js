@@ -13,18 +13,20 @@ let correctAnswers;
 let candidateAnswers;
 
 
-function askForName() {
-  // TODO 1.1b: Ask for candidate's name //
-
-}
-
-function askQuestion() {
-  // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
+function askForName() { let candidateName = input.question("What is your name:");
+console.log(candidateName);
+//console.log("\n");
+//console.log("Hello Zachari");
 
 
 }
 
-function gradeQuiz(candidateAnswers) {
+function askQuestion() { let question = input.question("Who was the first American woman in space?");
+console.log("Correct Answer: Sally Ride")
+
+}
+
+function gradeQuiz(candidateAnswers) { 
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 
